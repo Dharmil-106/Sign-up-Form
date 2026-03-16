@@ -127,15 +127,12 @@ a {
     text-decoration: none;
 }
 
-input:invalid {
-    border: solid red;
+input:invalid:focus {
+    border: solid 1px red;
+    box-shadow: 2px 2px 15px 0px red;
 }
 
-input:valid {
-    border: solid green;
-}
-
-input:focus {
-    border: solid aqua;
-    box-shadow: 1px 1px 5px 0px aqua;
+input:valid:focus {
+    border: solid  green;
+    box-shadow: 2px 2px 15px 0px green;
 }
